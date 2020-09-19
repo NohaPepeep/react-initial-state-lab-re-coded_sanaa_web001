@@ -5,7 +5,7 @@ export default class Bomb extends Component {
   constructor(props) {
   super()
   this.state = {
-    currentSlideIndex  : 0,
+    secondsLeft  : 0,
   } 
 }
   render() {
