@@ -11,7 +11,7 @@ export default class ImageSlider extends Component {
   render() {
     return (
       <div id="matrix">
-        
+        'I am on slide {this.state.currentSlideIndex}'
       </div>
     )
   }
